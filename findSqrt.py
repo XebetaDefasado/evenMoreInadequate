@@ -11,6 +11,3 @@ def findSqrt(number: int, finderStart: int, finderFinal: int):
                 return (number, mh.sqrt(number))
     if (type(number) == float):
         return
-
-
-findSqrt(10, 0, 10)
